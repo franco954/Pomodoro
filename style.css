@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .pomodoro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .timer-label {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+  }
+  
+  .time-left {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .controls-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .length-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+  }
+  
+  .label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+    margin-bottom: 1rem;
+  }
+  
+  .length-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .length-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .length {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0 1rem;
+  }
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff4500;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #ff5722;
+  }
