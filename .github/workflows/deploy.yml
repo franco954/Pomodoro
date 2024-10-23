@@ -4,7 +4,7 @@ name: Deploy to S3
 on:
   push:
     branches:
-      - master  # Cambia esto a la rama que deseas usar
+      - master  
 
 jobs:
   deploy:
